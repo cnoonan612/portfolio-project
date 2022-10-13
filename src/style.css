@@ -8,6 +8,11 @@ body {
   display: box;
 }
 
+nav {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 h1,
 h2,
 h3 {
@@ -58,12 +63,21 @@ img {
 .hero {
   background: var(--secondary-color);
   color: var(--primary-color);
+  padding: 160px 0;
   text-align: center;
+}
+
+.hero h1 {
+  font-size: 90px;
 }
 
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
+
+.contact-link:hover {
   color: var(--secondary-color);
 }
 
