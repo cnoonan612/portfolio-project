@@ -5,7 +5,7 @@
 }
 
 body {
-  background: var(--primary-color) !important;
+  background: var(--primary-color);
   display: box;
 }
 
@@ -35,7 +35,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  color: #86340a;
 }
 
 img {
@@ -112,7 +111,7 @@ nav {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -148,6 +147,20 @@ nav {
 }
 
 .about-body {
-  background: var(--secondary-color) !important;
+  background: var(--secondary-color)!important;
+  color: var(--primary-color)!important;
+}
+
+.index-paragraph {
+  color: #86340a;
+}
+
+.about-paragraph {
   color: var(--primary-color);
+}
+
+.contact-body {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 50px; 
 }
