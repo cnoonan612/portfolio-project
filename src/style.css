@@ -166,7 +166,7 @@ color: var(--secondary-color)!important;
   background: var(--primary-color);
 }
 .index-paragraph {
-  color: #86340a;
+  color: var(--secondary-color);
 }
 
 .index-projects-header {
