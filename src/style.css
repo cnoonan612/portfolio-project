@@ -42,19 +42,19 @@ img {
 }
 
 nav {
-  background: var(--primary-color);  
+  background: var(--primary-color);
 }
 
 .navbar-brand {
-  color: var(--secondary-color)!important;
+  color: var(--secondary-color) !important;
 }
 
 .nav-link {
-color: var(--secondary-color)!important;
+  color: var(--secondary-color) !important;
 }
 
 .navbar-toggler {
-  color: var(--secondary-color)!important;
+  color: var(--secondary-color) !important;
 }
 
 .navigation-links {
@@ -158,8 +158,8 @@ color: var(--secondary-color)!important;
 }
 
 .about-body {
-  background: var(--secondary-color)!important;
-  color: var(--primary-color)!important;
+  background: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
 }
 
 .index-body {
@@ -170,8 +170,8 @@ color: var(--secondary-color)!important;
 }
 
 .index-projects-header {
-color: var(--secondary-color);
-text-decoration: underline;
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
 
 .about-paragraph {
@@ -181,13 +181,22 @@ text-decoration: underline;
 .contact-body {
   background: var(--secondary-color);
   color: var(--primary-color);
-  padding: 50px; 
+  padding: 50px;
 }
 
 .portfolio {
-    border: 1px solid var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .about-portfolio {
-    border: 1px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-photo {
+  margin-top: 80px;
 }
