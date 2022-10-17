@@ -119,15 +119,29 @@ nav {
   margin: 10px;
 }
 
+.contact-header {
+  font-size: 60px;
+}
+
 .email-link {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 18px;
   text-decoration: none;
 }
 
 .email-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.instagram-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.instagram-link:hover {
   text-decoration: underline;
   color: var(--primary-color);
 }
