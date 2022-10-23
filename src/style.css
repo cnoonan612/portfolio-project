@@ -16,16 +16,12 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-h2 {
-  font-size: 48px;
-}
-
+h2,
 h3 {
-  font-size: 24px;
-  opacity: 0.7;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 p {
@@ -34,6 +30,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 img {
@@ -118,12 +115,16 @@ footer .social-links:hover {
 .hero {
   background: var(--secondary-color);
   color: var(--primary-color);
-  padding: 160px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
 .hero h1 {
   font-size: 90px;
+}
+
+.hero h2 {
+  font-size: 40px;
 }
 
 .contact-link {
