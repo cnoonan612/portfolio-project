@@ -46,43 +46,84 @@ footer h4 {
   font-size: 40px;
 }
 footer .contact-box {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   border-radius: 10px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   padding: 30px;
 }
 
 footer .contact-link {
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  background: var(--secondary-color);
+  color: var(--primary-color);
   margin: 25px;
   padding: 15px;
 }
 
 footer .contact-link:hover {
-  background-color: var(--secondary-color);
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 footer .email-link {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 20px;
   text-decoration: none;
 }
 
 footer .email-link:hover {
   text-decoration: underline;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 footer .social-links a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   margin: 0 20px;
   text-decoration: none;
 }
 
 footer .social-links:hover {
+  color: var(--primary-color);
+}
+
+footer .index-contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+  padding: 30px;
+}
+
+footer .index-contact-link {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 25px;
+  padding: 15px;
+}
+
+footer .index-contact-link:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+footer .index-email-link {
+  color: var(--secondary-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer .index-email-link:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+footer .index-social-links a {
+  color: var(--secondary-color);
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+footer .index-social-links:hover {
   color: var(--secondary-color);
 }
 
