@@ -45,6 +45,12 @@ nav {
 footer h4 {
   font-size: 40px;
 }
+
+footer p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+}
+
 footer .contact-box {
   background: var(--primary-color);
   border-radius: 10px;
@@ -84,6 +90,16 @@ footer .social-links a {
 
 footer .social-links:hover {
   color: var(--primary-color);
+}
+
+footer .github-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+footer .github-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 footer .index-contact-box {
@@ -127,6 +143,18 @@ footer .index-social-links:hover {
   color: var(--secondary-color);
 }
 
+footer .index-github-p {
+  color: var(--secondary-color);
+}
+footer .index-github-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+footer .index-github-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
 .navbar-brand {
   color: var(--secondary-color) !important;
 }
